@@ -1,0 +1,78 @@
+body {
+    background-color: deepskyblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.form-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.details strong {
+    color: darkred;
+}
+.food-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.food-item img {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.food-description {
+    flex: 1;
+}
+.food-description strong {
+    color: darkred;
+    font-size: 18px;
+}
+.total-section {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.total-section strong {
+    color: darkgreen;
+}
+.payment-method {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.payment-method input {
+    margin-right: 10px;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer li {
+    margin: 5px 0;
+}

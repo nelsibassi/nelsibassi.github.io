@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posttest 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+            background-color: deepskyblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .form-container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: darkblue;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .details {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .details strong {
+            color: darkred;
+        }
+        .food-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .food-item img {
+            width: 150px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .food-description {
+            flex: 1;
+        }
+        .food-description strong {
+            color: darkred;
+            font-size: 18px;
+        }
+        .total-section {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .total-section strong {
+            color: darkgreen;
+        }
+        .payment-method {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .payment-method input {
+            margin-right: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer li {
+            margin: 5px 0;
+        }
+    </style>
+    
+    <div class="form-container">
+        <h1>Ringkasan Pesanan</h1>
+
+        <div class="details">
+            <strong>Nama Pelayan:</strong> Nelsi<br>
+            <strong>Nama Pemesan:</strong> Devi<br>
+            <strong>Alamat Pemesan:</strong> Jl. M.Yamin Suwandi Raya<br>
+            <strong>Tanggal Pemesanan:</strong> <input type="date">
+        </div>
+
+        <div class="food-item">
+            <img src="nasi-goreng.jpeg" alt="Nasi Goreng">
+            <div class="food-description">
+                <strong>Nasi Goreng Spesial</strong><br>
+                Harga Satuan: Rp.25.000<br>
+                Jumlah: 1 Porsi<br>
+                Total Harga: Rp.25.000
+            </div>
+        </div>
+
+        <div class="food-item">
+            <img src="es-teh-manis.jpeg" alt="Es Teh Manis">
+            <div class="food-description">
+                <strong>Es Teh Manis</strong><br>
+                Harga Satuan: Rp.5.000<br>
+                Jumlah: 1 Gelas<br>
+                Total Harga: Rp.5.000
+            </div>
+        </div>
+
+        <div class="total-section">
+            <strong>Total Pesanan:</strong> Rp.30.000<br>
+            <strong>Pajak:</strong> Rp.2.000<br>
+            <strong>Total Tagihan:</strong> Rp.32.000
+        </div>
+
+        <div class="payment-method">
+            <b>Metode Pembayaran:</b><br>
+            <input type="radio" name="pembayaran" value="Bank BCA"> Bank BCA<br>
+            <input type="radio" name="pembayaran" value="Bank Bri"> Bank Bri<br>
+            <input type="radio" name="pembayaran" value="Ovo"> Ovo<br>
+            <input type="radio" name="pembayaran" value="Gopay"> Gopay
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>Nama: Nelsi</li>
+            <li>NIM: 2309106120</li>
+            <li>Praktikum Web: <a href="https://classroom.google.com/c/NzEwMjM1NjcxOTQw/a/NzA2MTI5MTczNjQz/details" target="Blank">Posttest2</a></li>
+        </ul>
+    </div>
+</body>
+</html>
