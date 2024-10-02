@@ -1,0 +1,25 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(gambar.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
+
+.order-section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.order-section h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
